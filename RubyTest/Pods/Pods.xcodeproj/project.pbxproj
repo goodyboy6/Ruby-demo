@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27CD5B8ACE6655478CA060F1BC86042C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		341E9EC2DACD70FA0DC82338C9DB7370 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66333CC6DD0EBE40A9C1029551BD7BEB /* AppDelegate.m */; };
+		8753CA433BBB917D2455BFECE12A3793 /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E608B25810478F3FEB241838460275D2 /* AppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6986D93596360E620A68D525685145E /* ruby-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB621B6976AB214C037B95C80451F7A /* ruby-dummy.m */; };
+		DB9A0779B54BFE7324A30E5A381D8E1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F9F975CF312562C4D1009EDD60323006 /* Pods-RubyTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A450126F67DE4F2559FCD1F7E026A0F1 /* Pods-RubyTest-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F834F003661EA8C876A63505E3A765A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20732DA120BEC761476CCCEB74E966FE;
+			remoteInfo = ruby;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07AF9FCD86B81D1AE74AFC6A3F2078C7 /* Pods-RubyTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RubyTest-frameworks.sh"; sourceTree = "<group>"; };
+		0D440E08C423A6962B80DD103B529198 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = AFNetworking.framework/Headers/AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		14C20088686674B5FF5994375B878769 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = AFNetworking.framework/Headers/AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		2595179A8F11605233D99BE8D599DF30 /* ruby.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ruby.xcconfig; sourceTree = "<group>"; };
+		4EE6CB304F1EC66BBD4AF2B094045D85 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking.framework/Headers/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		500DD15675D0E16E5EBC3564F4FD0F64 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
+		5374ED084A2884D25E60270944C97281 /* AFHTTPRequestOperationLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationLogger.h; path = AFNetworking.framework/Headers/AFHTTPRequestOperationLogger.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66333CC6DD0EBE40A9C1029551BD7BEB /* AppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66CB371FB9BC17A9DD6F71BC45C07EE0 /* AFHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = AFNetworking.framework/Headers/AFHTTPClient.h; sourceTree = "<group>"; };
+		7DB0D838EE15420608FCD56DB5D5C084 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		83F3D4837E848CB1C745BE6CF792A3F7 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = AFNetworking.framework/Headers/AFImageRequestOperation.h; sourceTree = "<group>"; };
+		83FDDD85E5F4186B92EFD290A1A1652C /* libPods-RubyTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RubyTest.a"; path = "libPods-RubyTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F2B5C9CFB52206D5C3E76CA5358F7DF /* Pods-RubyTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RubyTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A68596E89528867CD5EE138B97BE5B0 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFPropertyListRequestOperation.h; path = AFNetworking.framework/Headers/AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		A12CE8336B412692482ABF0489975FBC /* Pods-RubyTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RubyTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		A450126F67DE4F2559FCD1F7E026A0F1 /* Pods-RubyTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RubyTest-dummy.m"; sourceTree = "<group>"; };
+		AEB621B6976AB214C037B95C80451F7A /* ruby-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ruby-dummy.m"; sourceTree = "<group>"; };
+		B64B3ADCD0A45A8B0D6B083108634B94 /* Pods-RubyTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RubyTest-resources.sh"; sourceTree = "<group>"; };
+		B8EC42F54251CF288066FDAB59800368 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking.framework/Headers/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		BAAF8D0BE228E75071E1E4D93BD1D1C4 /* ruby-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ruby-prefix.pch"; sourceTree = "<group>"; };
+		C8FA7211651C68FA129EE5D1FF67F6F0 /* libruby.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libruby.a; path = libruby.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3B4211543B14BD63EA856DDCA00196 /* Pods-RubyTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RubyTest.release.xcconfig"; sourceTree = "<group>"; };
+		E4576A32C840FF467DB1667577BC57E6 /* AFDownloadRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFDownloadRequestOperation.h; path = AFNetworking.framework/Headers/AFDownloadRequestOperation.h; sourceTree = "<group>"; };
+		E608B25810478F3FEB241838460275D2 /* AppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1FB3B7BAE5456AA42362F5A78BFDD9C /* Pods-RubyTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RubyTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F39E1A17C5F7CCAAF514FC9726E8DD92 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking.framework/Headers/AFNetworking.h; sourceTree = "<group>"; };
+		F7619B3D11FA4A318415A95FAD3B6A0B /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "AFNetworking.framework/Headers/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EC86321D01FD6BCFD6B161B572C7468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9A0779B54BFE7324A30E5A381D8E1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27780985BD45147FE26E6141AE19BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CD5B8ACE6655478CA060F1BC86042C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14CB1245A4FF3C48D1B51E2D00C43272 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DD8C668AFF7915D85EB483E9C448D37 /* Pods-RubyTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1FB932F6FF7E0BDBFEB59031C4D6E3CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83FDDD85E5F4186B92EFD290A1A1652C /* libPods-RubyTest.a */,
+				C8FA7211651C68FA129EE5D1FF67F6F0 /* libruby.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		520EF6243BE0A6FDFFFA5552096E0E0B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC7A0B705AEB4AC61CF3E1D042F7B122 /* ruby */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6CFB8EF798F5137AB18B43873C21778E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2595179A8F11605233D99BE8D599DF30 /* ruby.xcconfig */,
+				AEB621B6976AB214C037B95C80451F7A /* ruby-dummy.m */,
+				BAAF8D0BE228E75071E1E4D93BD1D1C4 /* ruby-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/ruby";
+			sourceTree = "<group>";
+		};
+		6F8B7B0A1500209295FDE8CCA1942369 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB70761E1C5CE436A5B157D0D024C1 /* RubyTest */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				520EF6243BE0A6FDFFFA5552096E0E0B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F528C5491B5AA3A7C7F7C1022C8E3920 /* Pods */,
+				1FB932F6FF7E0BDBFEB59031C4D6E3CF /* Products */,
+				14CB1245A4FF3C48D1B51E2D00C43272 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DD8C668AFF7915D85EB483E9C448D37 /* Pods-RubyTest */ = {
+			isa = PBXGroup;
+			children = (
+				8F2B5C9CFB52206D5C3E76CA5358F7DF /* Pods-RubyTest-acknowledgements.markdown */,
+				A12CE8336B412692482ABF0489975FBC /* Pods-RubyTest-acknowledgements.plist */,
+				A450126F67DE4F2559FCD1F7E026A0F1 /* Pods-RubyTest-dummy.m */,
+				07AF9FCD86B81D1AE74AFC6A3F2078C7 /* Pods-RubyTest-frameworks.sh */,
+				B64B3ADCD0A45A8B0D6B083108634B94 /* Pods-RubyTest-resources.sh */,
+				F1FB3B7BAE5456AA42362F5A78BFDD9C /* Pods-RubyTest.debug.xcconfig */,
+				CA3B4211543B14BD63EA856DDCA00196 /* Pods-RubyTest.release.xcconfig */,
+			);
+			name = "Pods-RubyTest";
+			path = "Target Support Files/Pods-RubyTest";
+			sourceTree = "<group>";
+		};
+		A4CB70761E1C5CE436A5B157D0D024C1 /* RubyTest */ = {
+			isa = PBXGroup;
+			children = (
+				E608B25810478F3FEB241838460275D2 /* AppDelegate.h */,
+				66333CC6DD0EBE40A9C1029551BD7BEB /* AppDelegate.m */,
+			);
+			name = RubyTest;
+			path = RubyTest;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E8B3B70DF3F707CBC5559DF7C5199C3B /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				E4576A32C840FF467DB1667577BC57E6 /* AFDownloadRequestOperation.h */,
+				66CB371FB9BC17A9DD6F71BC45C07EE0 /* AFHTTPClient.h */,
+				4EE6CB304F1EC66BBD4AF2B094045D85 /* AFHTTPRequestOperation.h */,
+				5374ED084A2884D25E60270944C97281 /* AFHTTPRequestOperationLogger.h */,
+				83F3D4837E848CB1C745BE6CF792A3F7 /* AFImageRequestOperation.h */,
+				14C20088686674B5FF5994375B878769 /* AFJSONRequestOperation.h */,
+				7DB0D838EE15420608FCD56DB5D5C084 /* AFNetworkActivityIndicatorManager.h */,
+				F39E1A17C5F7CCAAF514FC9726E8DD92 /* AFNetworking.h */,
+				9A68596E89528867CD5EE138B97BE5B0 /* AFPropertyListRequestOperation.h */,
+				B8EC42F54251CF288066FDAB59800368 /* AFURLConnectionOperation.h */,
+				0D440E08C423A6962B80DD103B529198 /* AFXMLRequestOperation.h */,
+				F7619B3D11FA4A318415A95FAD3B6A0B /* UIImageView+AFNetworking.h */,
+				F95392D7592B1799177C3B85F922A76F /* Frameworks */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		F528C5491B5AA3A7C7F7C1022C8E3920 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8B3B70DF3F707CBC5559DF7C5199C3B /* AFNetworking */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F95392D7592B1799177C3B85F922A76F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				500DD15675D0E16E5EBC3564F4FD0F64 /* AFNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC7A0B705AEB4AC61CF3E1D042F7B122 /* ruby */ = {
+			isa = PBXGroup;
+			children = (
+				6F8B7B0A1500209295FDE8CCA1942369 /* AppDelegate */,
+				6CFB8EF798F5137AB18B43873C21778E /* Support Files */,
+			);
+			name = ruby;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37F7B9FE181BBE819321B52CB27E66D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8753CA433BBB917D2455BFECE12A3793 /* AppDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		131CDB0D158D5C32B9F7570C7F5B8ED3 /* Pods-RubyTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2CC4E006E197724FF056BB3873FDD6 /* Build configuration list for PBXNativeTarget "Pods-RubyTest" */;
+			buildPhases = (
+				FA90D3EA5389ACE22DDCE4350C93C04E /* Sources */,
+				9EC86321D01FD6BCFD6B161B572C7468 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				538316ACD4886291CA340AC6D4BBBC5D /* PBXTargetDependency */,
+			);
+			name = "Pods-RubyTest";
+			productName = "Pods-RubyTest";
+			productReference = 83FDDD85E5F4186B92EFD290A1A1652C /* libPods-RubyTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		20732DA120BEC761476CCCEB74E966FE /* ruby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C330D08E900579C1484A9A0E6B9FF07C /* Build configuration list for PBXNativeTarget "ruby" */;
+			buildPhases = (
+				928E1ED311206BBD8EFADF6199BB21B8 /* Sources */,
+				A27780985BD45147FE26E6141AE19BEE /* Frameworks */,
+				37F7B9FE181BBE819321B52CB27E66D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ruby;
+			productName = ruby;
+			productReference = C8FA7211651C68FA129EE5D1FF67F6F0 /* libruby.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1FB932F6FF7E0BDBFEB59031C4D6E3CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				131CDB0D158D5C32B9F7570C7F5B8ED3 /* Pods-RubyTest */,
+				20732DA120BEC761476CCCEB74E966FE /* ruby */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		928E1ED311206BBD8EFADF6199BB21B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341E9EC2DACD70FA0DC82338C9DB7370 /* AppDelegate.m in Sources */,
+				B6986D93596360E620A68D525685145E /* ruby-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA90D3EA5389ACE22DDCE4350C93C04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F975CF312562C4D1009EDD60323006 /* Pods-RubyTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		538316ACD4886291CA340AC6D4BBBC5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ruby;
+			target = 20732DA120BEC761476CCCEB74E966FE /* ruby */;
+			targetProxy = F834F003661EA8C876A63505E3A765A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		38D27A8F53F56E236E26341B40533137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1FB3B7BAE5456AA42362F5A78BFDD9C /* Pods-RubyTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		533B248C55DFE2BDA7219848BAB16F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA3B4211543B14BD63EA856DDCA00196 /* Pods-RubyTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86401FCB903AA55FAEC96D475C49DA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2595179A8F11605233D99BE8D599DF30 /* ruby.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ruby/ruby-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FAB09F749280C31AA7121AC4B2BC05F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2595179A8F11605233D99BE8D599DF30 /* ruby.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ruby/ruby-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C330D08E900579C1484A9A0E6B9FF07C /* Build configuration list for PBXNativeTarget "ruby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86401FCB903AA55FAEC96D475C49DA2C /* Debug */,
+				FAB09F749280C31AA7121AC4B2BC05F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2CC4E006E197724FF056BB3873FDD6 /* Build configuration list for PBXNativeTarget "Pods-RubyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D27A8F53F56E236E26341B40533137 /* Debug */,
+				533B248C55DFE2BDA7219848BAB16F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

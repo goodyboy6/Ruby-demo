@@ -1,0 +1,38 @@
+source "git@gitlab.alibaba-inc.com:alipods/specs.git"
+source "git@gitlab.alibaba-inc.com:alipods/specs-mirror.git"
+
+
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+def isDevelopment
+    return ENV['PODFILE_TYPE'] == 'development';
+end
+
+
+
+target('RubyTest') do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for RubyTest
+  # pod 'XXNibBridge', '~> 2.3.1';
+  # ==>
+  pod 'ruby/AppDelegate', :path=>'./'
+
+if isDevelopment
+    pod('XXNibBridge', '~> 2.3.1');
+else
+    pod 'AFNetworking'
+end
+
+
+
+end
+
+pre_install do
+
+temp = #{isDevelopment};
+system('echo #{temp}');
+
+end

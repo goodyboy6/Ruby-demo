@@ -1,0 +1,19 @@
+PODS:
+  - AFNetworking (3.1.0.14)
+  - ruby/AppDelegate (2.14)
+
+DEPENDENCIES:
+  - AFNetworking
+  - ruby/AppDelegate (from `./`)
+
+EXTERNAL SOURCES:
+  ruby:
+    :path: ./
+
+SPEC CHECKSUMS:
+  AFNetworking: 065650da95fe0af5375e34db74c3fcee91e71315
+  ruby: 94c6848f139c806b3fe4e87d59949f61b3ced26b
+
+PODFILE CHECKSUM: f4dab0c70bbccde3cce21feb72a7403ce5f7b0a7
+
+COCOAPODS: 1.2.1
