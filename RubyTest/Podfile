@@ -19,7 +19,8 @@ target('RubyTest') do
   # pod 'XXNibBridge', '~> 2.3.1';
   # ==>
   pod 'ruby/AppDelegate', :path=>'./'
-
+  pod 'TBMatrix', '~> 4.1.0.1'
+  
 if isDevelopment
     pod('XXNibBridge', '~> 2.3.1');
 else

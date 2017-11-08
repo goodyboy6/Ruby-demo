@@ -1,0 +1,6 @@
+framework module AliURLRouter {
+  umbrella header "AliURLRouter.h"
+
+  export *
+  module * { export * }
+}

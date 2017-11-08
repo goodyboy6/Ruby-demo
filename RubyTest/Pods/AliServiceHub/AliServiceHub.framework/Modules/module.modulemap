@@ -1,0 +1,6 @@
+framework module AliServiceHub {
+  umbrella header "AliServiceHub.h"
+
+  export *
+  module * { export * }
+}

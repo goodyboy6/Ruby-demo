@@ -1,0 +1,6 @@
+framework module TBMatrix {
+  umbrella header "TBMatrix.h"
+
+  export *
+  module * { export * }
+}

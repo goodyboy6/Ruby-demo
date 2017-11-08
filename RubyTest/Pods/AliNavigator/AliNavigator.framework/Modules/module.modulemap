@@ -1,0 +1,6 @@
+framework module AliNavigator {
+  umbrella header "AliNavigator.h"
+
+  export *
+  module * { export * }
+}

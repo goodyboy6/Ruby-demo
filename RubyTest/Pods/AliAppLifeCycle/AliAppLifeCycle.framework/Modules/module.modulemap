@@ -1,0 +1,6 @@
+framework module AliAppLifeCycle {
+  umbrella header "AliAppLifeCycle.h"
+
+  export *
+  module * { export * }
+}

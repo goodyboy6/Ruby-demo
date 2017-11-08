@@ -1,9 +1,9 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AFNetworking"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AFNetworking" "${PODS_ROOT}/AliAppLifeCycle" "${PODS_ROOT}/AliNavigator" "${PODS_ROOT}/AliServiceHub" "${PODS_ROOT}/AliURLRouter" "${PODS_ROOT}/TBMatrix"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/ruby"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/AliAppLifeCycle" "${PODS_ROOT}/Headers/Public/AliNavigator" "${PODS_ROOT}/Headers/Public/AliServiceHub" "${PODS_ROOT}/Headers/Public/AliURLRouter" "${PODS_ROOT}/Headers/Public/TBMatrix" "${PODS_ROOT}/Headers/Public/ruby"
 LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/ruby"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/ruby"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"ruby" -framework "AFNetworking"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/AliAppLifeCycle" -isystem "${PODS_ROOT}/Headers/Public/AliNavigator" -isystem "${PODS_ROOT}/Headers/Public/AliServiceHub" -isystem "${PODS_ROOT}/Headers/Public/AliURLRouter" -isystem "${PODS_ROOT}/Headers/Public/TBMatrix" -isystem "${PODS_ROOT}/Headers/Public/ruby"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"ruby" -framework "AFNetworking" -framework "AliAppLifeCycle" -framework "AliNavigator" -framework "AliServiceHub" -framework "AliURLRouter" -framework "TBMatrix"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

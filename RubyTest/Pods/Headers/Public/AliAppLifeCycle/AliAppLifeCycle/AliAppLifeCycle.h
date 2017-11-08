@@ -1,0 +1,1 @@
+../../../../AliAppLifeCycle/AliAppLifeCycle.framework/Headers/AliAppLifeCycle.h

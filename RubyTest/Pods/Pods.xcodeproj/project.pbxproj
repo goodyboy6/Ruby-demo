@@ -26,35 +26,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0286DA45938CFE12147C5D5933A39E06 /* AliServiceHub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliServiceHub.framework; sourceTree = "<group>"; };
+		03F006CB8FA27FC9B325966D70972B10 /* AliAppLifeCycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AliAppLifeCycle.h; path = AliAppLifeCycle.framework/Headers/AliAppLifeCycle.h; sourceTree = "<group>"; };
+		04ECBE9A8C312D5B2EEAB5A19D748F18 /* AliURLRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AliURLRouter.h; path = AliURLRouter.framework/Headers/AliURLRouter.h; sourceTree = "<group>"; };
 		07AF9FCD86B81D1AE74AFC6A3F2078C7 /* Pods-RubyTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RubyTest-frameworks.sh"; sourceTree = "<group>"; };
-		0D440E08C423A6962B80DD103B529198 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = AFNetworking.framework/Headers/AFXMLRequestOperation.h; sourceTree = "<group>"; };
-		14C20088686674B5FF5994375B878769 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = AFNetworking.framework/Headers/AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		0B1463CCA8AD5103D19FDF3C99157197 /* UISkeletonProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UISkeletonProtocol.h; path = AliNavigator.framework/Headers/UISkeletonProtocol.h; sourceTree = "<group>"; };
+		165DF60463A96BC15A276D7AFE4BAD7F /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = AFNetworking.framework/Headers/AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		17B851A52C90B772FB116928267496B7 /* AliServiceHub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AliServiceHub.h; path = AliServiceHub.framework/Headers/AliServiceHub.h; sourceTree = "<group>"; };
+		17F17EF624C10A99912C88E06D2C12C4 /* TBMContainer+UrlBus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TBMContainer+UrlBus.h"; path = "TBMatrix.framework/Headers/TBMContainer+UrlBus.h"; sourceTree = "<group>"; };
+		1A1CE568BB194748938FCC53A61E6448 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFPropertyListRequestOperation.h; path = AFNetworking.framework/Headers/AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		1F093A189855D63CA2E68C84A67D9FBA /* TBURLActionRequestMiddleware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBURLActionRequestMiddleware.h; path = AliURLRouter.framework/Headers/TBURLActionRequestMiddleware.h; sourceTree = "<group>"; };
 		2595179A8F11605233D99BE8D599DF30 /* ruby.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ruby.xcconfig; sourceTree = "<group>"; };
-		4EE6CB304F1EC66BBD4AF2B094045D85 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking.framework/Headers/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		500DD15675D0E16E5EBC3564F4FD0F64 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
-		5374ED084A2884D25E60270944C97281 /* AFHTTPRequestOperationLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationLogger.h; path = AFNetworking.framework/Headers/AFHTTPRequestOperationLogger.h; sourceTree = "<group>"; };
+		2A15F0FC33CF1CCD601D2F4A7A2E996E /* TBNavigationParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBNavigationParams.h; path = AliNavigator.framework/Headers/TBNavigationParams.h; sourceTree = "<group>"; };
+		2FD951D4A1549CE1B75121FE6D38A090 /* AliNavigator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliNavigator.framework; sourceTree = "<group>"; };
+		32DB4298CBB8D847A1C72835DFAF56EB /* TBNavigator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBNavigator.h; path = AliNavigator.framework/Headers/TBNavigator.h; sourceTree = "<group>"; };
+		38192C6C4268B61EF58AD4411356F6EB /* TBMContainerInter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBMContainerInter.h; path = TBMatrix.framework/Headers/TBMContainerInter.h; sourceTree = "<group>"; };
+		3D4144DFB6557B77A891ABE0F5E4E0FE /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = AFNetworking.framework/Headers/AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		3EF3EC1BEE669FBBDCB1C9CD6A3EF57C /* TBURLActionRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBURLActionRequest.h; path = AliURLRouter.framework/Headers/TBURLActionRequest.h; sourceTree = "<group>"; };
+		5D25008804B9B8F0C76D2573B8ABD115 /* UIViewController+AliNavigator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AliNavigator.h"; path = "AliNavigator.framework/Headers/UIViewController+AliNavigator.h"; sourceTree = "<group>"; };
+		65E202C8CA6F7F4B13374433847A3581 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "AFNetworking.framework/Headers/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66333CC6DD0EBE40A9C1029551BD7BEB /* AppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		66CB371FB9BC17A9DD6F71BC45C07EE0 /* AFHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = AFNetworking.framework/Headers/AFHTTPClient.h; sourceTree = "<group>"; };
-		7DB0D838EE15420608FCD56DB5D5C084 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
-		83F3D4837E848CB1C745BE6CF792A3F7 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = AFNetworking.framework/Headers/AFImageRequestOperation.h; sourceTree = "<group>"; };
+		6D689ACE2E97A54E0D276C3D425573A2 /* AliAppLifeCycleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AliAppLifeCycleManager.h; path = AliAppLifeCycle.framework/Headers/AliAppLifeCycleManager.h; sourceTree = "<group>"; };
+		6DC80E323CE04597C749083995D314A5 /* TBURLActionResponseMiddleware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBURLActionResponseMiddleware.h; path = AliURLRouter.framework/Headers/TBURLActionResponseMiddleware.h; sourceTree = "<group>"; };
+		781045E1FB26210B6DEB5E2A0A820127 /* AliAppLifeCycleEventProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AliAppLifeCycleEventProtocol.h; path = AliAppLifeCycle.framework/Headers/AliAppLifeCycleEventProtocol.h; sourceTree = "<group>"; };
+		7CCC71312D78A7CBCC838EECE951EC5F /* TBURLRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBURLRouter.h; path = AliURLRouter.framework/Headers/TBURLRouter.h; sourceTree = "<group>"; };
 		83FDDD85E5F4186B92EFD290A1A1652C /* libPods-RubyTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RubyTest.a"; path = "libPods-RubyTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		866A13513215C56837D2E275F938691F /* TBURLAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBURLAction.h; path = AliNavigator.framework/Headers/TBURLAction.h; sourceTree = "<group>"; };
+		8969BC0BB086A81D68AAFBCF65281164 /* TBMContainer+ServiceBus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TBMContainer+ServiceBus.h"; path = "TBMatrix.framework/Headers/TBMContainer+ServiceBus.h"; sourceTree = "<group>"; };
+		8BFDA3BE50B22A06BE1EE8FD8684B0BF /* AliAppLifeCycleAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AliAppLifeCycleAppDelegate.h; path = AliAppLifeCycle.framework/Headers/AliAppLifeCycleAppDelegate.h; sourceTree = "<group>"; };
 		8F2B5C9CFB52206D5C3E76CA5358F7DF /* Pods-RubyTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RubyTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F90B3890C6C7EF29F10B96591F4A4DC /* TBMContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBMContainer.h; path = TBMatrix.framework/Headers/TBMContainer.h; sourceTree = "<group>"; };
+		8FCD9D888FD47169891CC739BA02A4FF /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking.framework/Headers/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A68596E89528867CD5EE138B97BE5B0 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFPropertyListRequestOperation.h; path = AFNetworking.framework/Headers/AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		963E161AC975845B0CAA1E8763EFCB54 /* TBNavigatorBehaviorConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBNavigatorBehaviorConst.h; path = AliNavigator.framework/Headers/TBNavigatorBehaviorConst.h; sourceTree = "<group>"; };
+		9E2FD69058820B0189D0C3E10F1DEB28 /* AliAppLifeCycle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliAppLifeCycle.framework; sourceTree = "<group>"; };
+		A0AB6D382B01A20C5E09F86D175C1BD2 /* AFHTTPRequestOperationLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationLogger.h; path = AFNetworking.framework/Headers/AFHTTPRequestOperationLogger.h; sourceTree = "<group>"; };
 		A12CE8336B412692482ABF0489975FBC /* Pods-RubyTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RubyTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		A22C8E8D20D2775030D05A1D2CCB91B5 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
+		A30591AD3C806E3FDFB25A1200AED41E /* TBURLActionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBURLActionHandler.h; path = AliURLRouter.framework/Headers/TBURLActionHandler.h; sourceTree = "<group>"; };
+		A328D2BC2B7FF25A291022E898E711B5 /* TBNavigationType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBNavigationType.h; path = AliNavigator.framework/Headers/TBNavigationType.h; sourceTree = "<group>"; };
+		A33CCE60D2A8003F8A489335FE77D199 /* AliNavigator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AliNavigator.h; path = AliNavigator.framework/Headers/AliNavigator.h; sourceTree = "<group>"; };
 		A450126F67DE4F2559FCD1F7E026A0F1 /* Pods-RubyTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RubyTest-dummy.m"; sourceTree = "<group>"; };
+		A6C25EF6D75E0F4AAE874E2656F60897 /* UIViewControllerTBNavigator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIViewControllerTBNavigator.h; path = AliURLRouter.framework/Headers/UIViewControllerTBNavigator.h; sourceTree = "<group>"; };
+		AE1D50994B3EE42C538DF198D92BE7B5 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking.framework/Headers/AFURLConnectionOperation.h; sourceTree = "<group>"; };
 		AEB621B6976AB214C037B95C80451F7A /* ruby-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ruby-dummy.m"; sourceTree = "<group>"; };
+		B1D99E0CFEFF8D8CC73BBBEF4791E213 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		B39C5CF53BE97B03D46234A6F11D7434 /* UIViewController+AliURLRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AliURLRouter.h"; path = "AliURLRouter.framework/Headers/UIViewController+AliURLRouter.h"; sourceTree = "<group>"; };
 		B64B3ADCD0A45A8B0D6B083108634B94 /* Pods-RubyTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RubyTest-resources.sh"; sourceTree = "<group>"; };
-		B8EC42F54251CF288066FDAB59800368 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking.framework/Headers/AFURLConnectionOperation.h; sourceTree = "<group>"; };
 		BAAF8D0BE228E75071E1E4D93BD1D1C4 /* ruby-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ruby-prefix.pch"; sourceTree = "<group>"; };
+		BE6FFE4C1CFE29F2604DBD737A0E0172 /* UIViewController+NavigatorContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+NavigatorContainer.h"; path = "AliNavigator.framework/Headers/UIViewController+NavigatorContainer.h"; sourceTree = "<group>"; };
+		C6B6AA8C729B25EE2ACBFD7C74B06446 /* AFDownloadRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFDownloadRequestOperation.h; path = AFNetworking.framework/Headers/AFDownloadRequestOperation.h; sourceTree = "<group>"; };
 		C8FA7211651C68FA129EE5D1FF67F6F0 /* libruby.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libruby.a; path = libruby.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3B4211543B14BD63EA856DDCA00196 /* Pods-RubyTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RubyTest.release.xcconfig"; sourceTree = "<group>"; };
-		E4576A32C840FF467DB1667577BC57E6 /* AFDownloadRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFDownloadRequestOperation.h; path = AFNetworking.framework/Headers/AFDownloadRequestOperation.h; sourceTree = "<group>"; };
+		CC0748D70C81BE48E9D8E73126615C3D /* AliAppLifeCycleMessageProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AliAppLifeCycleMessageProtocol.h; path = AliAppLifeCycle.framework/Headers/AliAppLifeCycleMessageProtocol.h; sourceTree = "<group>"; };
+		D1D6EED9B461031E51E15A7E7A25CC26 /* TBURLActionResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBURLActionResponse.h; path = AliURLRouter.framework/Headers/TBURLActionResponse.h; sourceTree = "<group>"; };
+		D4108CA06271BFFB4B083124053250CC /* TBUrlNavigatorService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBUrlNavigatorService.h; path = AliNavigator.framework/Headers/TBUrlNavigatorService.h; sourceTree = "<group>"; };
+		D7145DE00AD81CE9F58922C72C2FE84C /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking.framework/Headers/AFNetworking.h; sourceTree = "<group>"; };
+		D901EB3DD623FFF906389553AFE6ACA6 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = AFNetworking.framework/Headers/AFImageRequestOperation.h; sourceTree = "<group>"; };
+		DAE336C192D54BD58B3B54D83E07639B /* AFHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = AFNetworking.framework/Headers/AFHTTPClient.h; sourceTree = "<group>"; };
+		DBAACFA0518812B72157CA94E915A08B /* TBMMessageReceiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBMMessageReceiver.h; path = TBMatrix.framework/Headers/TBMMessageReceiver.h; sourceTree = "<group>"; };
+		E24D7987D12206A9FEEBE171FDD4B0CD /* TBMatrix.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TBMatrix.framework; sourceTree = "<group>"; };
 		E608B25810478F3FEB241838460275D2 /* AppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1FB3B7BAE5456AA42362F5A78BFDD9C /* Pods-RubyTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RubyTest.debug.xcconfig"; sourceTree = "<group>"; };
-		F39E1A17C5F7CCAAF514FC9726E8DD92 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking.framework/Headers/AFNetworking.h; sourceTree = "<group>"; };
-		F7619B3D11FA4A318415A95FAD3B6A0B /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "AFNetworking.framework/Headers/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		FD4E2A7D46E71668A9CD62547739EFB8 /* TBMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBMatrix.h; path = TBMatrix.framework/Headers/TBMatrix.h; sourceTree = "<group>"; };
+		FF7C521F781CD2D881FCE394DDFAD783 /* AliURLRouter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliURLRouter.framework; sourceTree = "<group>"; };
+		FFE388200F996EC241F8D55E51DE6ACD /* AliServiceHubManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AliServiceHubManager.h; path = AliServiceHub.framework/Headers/AliServiceHubManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,12 +131,46 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		39A5CFD783942175C59B499AF4A61DB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E2FD69058820B0189D0C3E10F1DEB28 /* AliAppLifeCycle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44164904F924E824277E7D17494DFA12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF7C521F781CD2D881FCE394DDFAD783 /* AliURLRouter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		520EF6243BE0A6FDFFFA5552096E0E0B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				FC7A0B705AEB4AC61CF3E1D042F7B122 /* ruby */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		52F1480C200EC04B13DCAFDBE423B060 /* AliURLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				04ECBE9A8C312D5B2EEAB5A19D748F18 /* AliURLRouter.h */,
+				A30591AD3C806E3FDFB25A1200AED41E /* TBURLActionHandler.h */,
+				3EF3EC1BEE669FBBDCB1C9CD6A3EF57C /* TBURLActionRequest.h */,
+				1F093A189855D63CA2E68C84A67D9FBA /* TBURLActionRequestMiddleware.h */,
+				D1D6EED9B461031E51E15A7E7A25CC26 /* TBURLActionResponse.h */,
+				6DC80E323CE04597C749083995D314A5 /* TBURLActionResponseMiddleware.h */,
+				7CCC71312D78A7CBCC838EECE951EC5F /* TBURLRouter.h */,
+				B39C5CF53BE97B03D46234A6F11D7434 /* UIViewController+AliURLRouter.h */,
+				A6C25EF6D75E0F4AAE874E2656F60897 /* UIViewControllerTBNavigator.h */,
+				44164904F924E824277E7D17494DFA12 /* Frameworks */,
+			);
+			name = AliURLRouter;
+			path = AliURLRouter;
 			sourceTree = "<group>";
 		};
 		6CFB8EF798F5137AB18B43873C21778E /* Support Files */ = {
@@ -121,13 +192,26 @@
 			name = AppDelegate;
 			sourceTree = "<group>";
 		};
+		7A1179FCEFF586DAA9032C449C8364E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9841D2EDB3CD9CA9B96397484750176 /* AFNetworking */,
+				F67E3A8B427F237458538580021C3041 /* AliAppLifeCycle */,
+				8C7AEB760636CE8E5975EB67DF1A0194 /* AliNavigator */,
+				8FB18415168768C43E1D6014EC811B41 /* AliServiceHub */,
+				52F1480C200EC04B13DCAFDBE423B060 /* AliURLRouter */,
+				93960D562A53AE483CA5575599E0B626 /* TBMatrix */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				520EF6243BE0A6FDFFFA5552096E0E0B /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F528C5491B5AA3A7C7F7C1022C8E3920 /* Pods */,
+				7A1179FCEFF586DAA9032C449C8364E8 /* Pods */,
 				1FB932F6FF7E0BDBFEB59031C4D6E3CF /* Products */,
 				14CB1245A4FF3C48D1B51E2D00C43272 /* Targets Support Files */,
 			);
@@ -148,6 +232,59 @@
 			path = "Target Support Files/Pods-RubyTest";
 			sourceTree = "<group>";
 		};
+		8C7AEB760636CE8E5975EB67DF1A0194 /* AliNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				A33CCE60D2A8003F8A489335FE77D199 /* AliNavigator.h */,
+				2A15F0FC33CF1CCD601D2F4A7A2E996E /* TBNavigationParams.h */,
+				A328D2BC2B7FF25A291022E898E711B5 /* TBNavigationType.h */,
+				32DB4298CBB8D847A1C72835DFAF56EB /* TBNavigator.h */,
+				963E161AC975845B0CAA1E8763EFCB54 /* TBNavigatorBehaviorConst.h */,
+				866A13513215C56837D2E275F938691F /* TBURLAction.h */,
+				D4108CA06271BFFB4B083124053250CC /* TBUrlNavigatorService.h */,
+				0B1463CCA8AD5103D19FDF3C99157197 /* UISkeletonProtocol.h */,
+				5D25008804B9B8F0C76D2573B8ABD115 /* UIViewController+AliNavigator.h */,
+				BE6FFE4C1CFE29F2604DBD737A0E0172 /* UIViewController+NavigatorContainer.h */,
+				B17B8D2137C3671ACFBCC23550C41D6D /* Frameworks */,
+			);
+			name = AliNavigator;
+			path = AliNavigator;
+			sourceTree = "<group>";
+		};
+		8FB18415168768C43E1D6014EC811B41 /* AliServiceHub */ = {
+			isa = PBXGroup;
+			children = (
+				17B851A52C90B772FB116928267496B7 /* AliServiceHub.h */,
+				FFE388200F996EC241F8D55E51DE6ACD /* AliServiceHubManager.h */,
+				954515123A771645D5CD9851982E4A97 /* Frameworks */,
+			);
+			name = AliServiceHub;
+			path = AliServiceHub;
+			sourceTree = "<group>";
+		};
+		93960D562A53AE483CA5575599E0B626 /* TBMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E2A7D46E71668A9CD62547739EFB8 /* TBMatrix.h */,
+				8F90B3890C6C7EF29F10B96591F4A4DC /* TBMContainer.h */,
+				8969BC0BB086A81D68AAFBCF65281164 /* TBMContainer+ServiceBus.h */,
+				17F17EF624C10A99912C88E06D2C12C4 /* TBMContainer+UrlBus.h */,
+				38192C6C4268B61EF58AD4411356F6EB /* TBMContainerInter.h */,
+				DBAACFA0518812B72157CA94E915A08B /* TBMMessageReceiver.h */,
+				CE9B4C1FCBCCE3E5AB2DF411AD543381 /* Frameworks */,
+			);
+			name = TBMatrix;
+			path = TBMatrix;
+			sourceTree = "<group>";
+		};
+		954515123A771645D5CD9851982E4A97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0286DA45938CFE12147C5D5933A39E06 /* AliServiceHub.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A4CB70761E1C5CE436A5B157D0D024C1 /* RubyTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,10 +295,26 @@
 			path = RubyTest;
 			sourceTree = "<group>";
 		};
+		B17B8D2137C3671ACFBCC23550C41D6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FD951D4A1549CE1B75121FE6D38A090 /* AliNavigator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE9B4C1FCBCCE3E5AB2DF411AD543381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E24D7987D12206A9FEEBE171FDD4B0CD /* TBMatrix.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,41 +327,47 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E8B3B70DF3F707CBC5559DF7C5199C3B /* AFNetworking */ = {
+		F09AF0C8A549B166AA6597E1B670EF3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E4576A32C840FF467DB1667577BC57E6 /* AFDownloadRequestOperation.h */,
-				66CB371FB9BC17A9DD6F71BC45C07EE0 /* AFHTTPClient.h */,
-				4EE6CB304F1EC66BBD4AF2B094045D85 /* AFHTTPRequestOperation.h */,
-				5374ED084A2884D25E60270944C97281 /* AFHTTPRequestOperationLogger.h */,
-				83F3D4837E848CB1C745BE6CF792A3F7 /* AFImageRequestOperation.h */,
-				14C20088686674B5FF5994375B878769 /* AFJSONRequestOperation.h */,
-				7DB0D838EE15420608FCD56DB5D5C084 /* AFNetworkActivityIndicatorManager.h */,
-				F39E1A17C5F7CCAAF514FC9726E8DD92 /* AFNetworking.h */,
-				9A68596E89528867CD5EE138B97BE5B0 /* AFPropertyListRequestOperation.h */,
-				B8EC42F54251CF288066FDAB59800368 /* AFURLConnectionOperation.h */,
-				0D440E08C423A6962B80DD103B529198 /* AFXMLRequestOperation.h */,
-				F7619B3D11FA4A318415A95FAD3B6A0B /* UIImageView+AFNetworking.h */,
-				F95392D7592B1799177C3B85F922A76F /* Frameworks */,
+				A22C8E8D20D2775030D05A1D2CCB91B5 /* AFNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F67E3A8B427F237458538580021C3041 /* AliAppLifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				03F006CB8FA27FC9B325966D70972B10 /* AliAppLifeCycle.h */,
+				8BFDA3BE50B22A06BE1EE8FD8684B0BF /* AliAppLifeCycleAppDelegate.h */,
+				781045E1FB26210B6DEB5E2A0A820127 /* AliAppLifeCycleEventProtocol.h */,
+				6D689ACE2E97A54E0D276C3D425573A2 /* AliAppLifeCycleManager.h */,
+				CC0748D70C81BE48E9D8E73126615C3D /* AliAppLifeCycleMessageProtocol.h */,
+				39A5CFD783942175C59B499AF4A61DB5 /* Frameworks */,
+			);
+			name = AliAppLifeCycle;
+			path = AliAppLifeCycle;
+			sourceTree = "<group>";
+		};
+		F9841D2EDB3CD9CA9B96397484750176 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C6B6AA8C729B25EE2ACBFD7C74B06446 /* AFDownloadRequestOperation.h */,
+				DAE336C192D54BD58B3B54D83E07639B /* AFHTTPClient.h */,
+				8FCD9D888FD47169891CC739BA02A4FF /* AFHTTPRequestOperation.h */,
+				A0AB6D382B01A20C5E09F86D175C1BD2 /* AFHTTPRequestOperationLogger.h */,
+				D901EB3DD623FFF906389553AFE6ACA6 /* AFImageRequestOperation.h */,
+				165DF60463A96BC15A276D7AFE4BAD7F /* AFJSONRequestOperation.h */,
+				B1D99E0CFEFF8D8CC73BBBEF4791E213 /* AFNetworkActivityIndicatorManager.h */,
+				D7145DE00AD81CE9F58922C72C2FE84C /* AFNetworking.h */,
+				1A1CE568BB194748938FCC53A61E6448 /* AFPropertyListRequestOperation.h */,
+				AE1D50994B3EE42C538DF198D92BE7B5 /* AFURLConnectionOperation.h */,
+				3D4144DFB6557B77A891ABE0F5E4E0FE /* AFXMLRequestOperation.h */,
+				65E202C8CA6F7F4B13374433847A3581 /* UIImageView+AFNetworking.h */,
+				F09AF0C8A549B166AA6597E1B670EF3E /* Frameworks */,
 			);
 			name = AFNetworking;
 			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		F528C5491B5AA3A7C7F7C1022C8E3920 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E8B3B70DF3F707CBC5559DF7C5199C3B /* AFNetworking */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F95392D7592B1799177C3B85F922A76F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				500DD15675D0E16E5EBC3564F4FD0F64 /* AFNetworking.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FC7A0B705AEB4AC61CF3E1D042F7B122 /* ruby */ = {

@@ -1,10 +1,21 @@
 PODS:
   - AFNetworking (3.1.0.14)
+  - AliAppLifeCycle (1.0.1.4)
+  - AliNavigator (1.0.0.6):
+    - AliURLRouter
+  - AliServiceHub (1.0.1.2)
+  - AliURLRouter (1.0.0.8)
   - ruby/AppDelegate (2.14)
+  - TBMatrix (4.1.0.1):
+    - AliAppLifeCycle
+    - AliNavigator
+    - AliServiceHub
+    - AliURLRouter
 
 DEPENDENCIES:
   - AFNetworking
   - ruby/AppDelegate (from `./`)
+  - TBMatrix (~> 4.1.0.1)
 
 EXTERNAL SOURCES:
   ruby:
@@ -12,8 +23,13 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 065650da95fe0af5375e34db74c3fcee91e71315
+  AliAppLifeCycle: e41ffe849e9f27320f7c0237448d9b6aa5cfc5ab
+  AliNavigator: 8ed0108e1c8b9dea3f86b2e6de64c873e8877ba6
+  AliServiceHub: 144a19015290677a723e49f2da54efadaa275b1c
+  AliURLRouter: f3b31943cf93b14cc936cc4702959bb96c1751b0
   ruby: 94c6848f139c806b3fe4e87d59949f61b3ced26b
+  TBMatrix: ea522485acdeac0285319ddcba5c3b505ddd73d9
 
-PODFILE CHECKSUM: f4dab0c70bbccde3cce21feb72a7403ce5f7b0a7
+PODFILE CHECKSUM: b9f2936c2cd7c7284bdf6b478d5267294f4af01b
 
 COCOAPODS: 1.2.1
